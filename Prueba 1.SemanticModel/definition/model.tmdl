@@ -1,0 +1,21 @@
+model Model
+	culture: es-ES
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: es-CL
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_ProTooling = ["DevMode"]
+
+annotation PBI_QueryOrder = ["COR_PERSONAS V_BUK_EMPLEADOS_HIS"]
+
+ref table 'COR_PERSONAS V_BUK_EMPLEADOS_HIS'
+ref table DateTableTemplate_6370acad-466c-48b1-b692-6879cbbcc423
+ref table LocalDateTable_fe3e6b41-0595-43ae-9185-03ae0428e3ca
+ref table LocalDateTable_054e75aa-c667-406f-9d69-5c1b649667d5
+
+ref cultureInfo es-ES
+

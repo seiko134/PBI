@@ -1,0 +1,542 @@
+table 'COR_PERSONAS V_BUK_EMPLEADOS_HIS'
+	lineageTag: 10de6c4f-a56a-449d-98d1-3ba5e58c1767
+
+	column PERSON_ID
+		dataType: int64
+		formatString: 0
+		lineageTag: b704108a-baba-4625-b43a-484afe87af56
+		summarizeBy: count
+		sourceColumn: PERSON_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column ID
+		dataType: int64
+		formatString: 0
+		lineageTag: a355e189-483a-418e-be5d-0f83c77d4d74
+		summarizeBy: count
+		sourceColumn: ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column FIRST_NAME
+		dataType: string
+		lineageTag: 3ef7e703-5025-4b63-b675-f034c04950b4
+		summarizeBy: none
+		sourceColumn: FIRST_NAME
+
+		annotation SummarizationSetBy = Automatic
+
+	column SURNAME
+		dataType: string
+		lineageTag: 255c0e8d-d680-449c-84d0-d66916d12e29
+		summarizeBy: none
+		sourceColumn: SURNAME
+
+		annotation SummarizationSetBy = Automatic
+
+	column SECOND_SURNAME
+		dataType: string
+		lineageTag: 4b2466eb-7e5d-45e3-8177-12d2d9b3ff60
+		summarizeBy: none
+		sourceColumn: SECOND_SURNAME
+
+		annotation SummarizationSetBy = Automatic
+
+	column FULL_NAME
+		dataType: string
+		lineageTag: 795a4155-b389-4f6e-b106-9ad1fbb02a06
+		summarizeBy: none
+		sourceColumn: FULL_NAME
+
+		annotation SummarizationSetBy = Automatic
+
+	column RUT
+		dataType: string
+		lineageTag: f3ae7908-13e6-412e-a8d0-528ae8ebb63c
+		summarizeBy: none
+		sourceColumn: RUT
+
+		annotation SummarizationSetBy = Automatic
+
+	column RUT_RCL
+		dataType: string
+		lineageTag: 7358d0a5-638a-4b86-9ba6-8d6b26ece5d4
+		summarizeBy: none
+		sourceColumn: RUT_RCL
+
+		annotation SummarizationSetBy = Automatic
+
+	column RUT_SIN_DV
+		dataType: string
+		lineageTag: 8b778953-12e6-45d3-9ef9-4bf53f2d4ddf
+		summarizeBy: none
+		sourceColumn: RUT_SIN_DV
+
+		annotation SummarizationSetBy = Automatic
+
+	column DV
+		dataType: string
+		lineageTag: 32555592-023d-4991-b0dd-6752a3ead51c
+		summarizeBy: none
+		sourceColumn: DV
+
+		annotation SummarizationSetBy = Automatic
+
+	column RUT_DV
+		dataType: string
+		lineageTag: 20ab81b0-f97b-43bc-a123-7ed65d4b18c3
+		summarizeBy: none
+		sourceColumn: RUT_DV
+
+		annotation SummarizationSetBy = Automatic
+
+	column NATIONALITY
+		dataType: string
+		lineageTag: 503da112-cb95-40bf-9c21-c9ea93ffd824
+		summarizeBy: none
+		sourceColumn: NATIONALITY
+
+		annotation SummarizationSetBy = Automatic
+
+	column CIVIL_STATUS
+		dataType: string
+		lineageTag: 43fdc0dc-3b60-4aef-9cee-fad401b8b8d5
+		summarizeBy: none
+		sourceColumn: CIVIL_STATUS
+
+		annotation SummarizationSetBy = Automatic
+
+	column OFFICE_PHONE
+		dataType: string
+		lineageTag: 8cdc2297-569e-48ea-be05-5f14f120eb99
+		summarizeBy: none
+		sourceColumn: OFFICE_PHONE
+
+		annotation SummarizationSetBy = Automatic
+
+	column PHONE
+		dataType: string
+		lineageTag: df032d53-df1e-4a8c-8613-3d2860d0265f
+		summarizeBy: none
+		sourceColumn: PHONE
+
+		annotation SummarizationSetBy = Automatic
+
+	column GENDER
+		dataType: string
+		lineageTag: 512b884e-f796-48fa-a942-d9b777e442a6
+		summarizeBy: none
+		sourceColumn: GENDER
+
+		annotation SummarizationSetBy = Automatic
+
+	column EMAIL
+		dataType: string
+		lineageTag: b0c7c6ee-d3fc-430a-9f99-e27d7836ff20
+		summarizeBy: none
+		sourceColumn: EMAIL
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODE_SHEET
+		dataType: string
+		lineageTag: e237da61-6df9-4a84-b41d-33b877e6afdb
+		summarizeBy: none
+		sourceColumn: CODE_SHEET
+
+		annotation SummarizationSetBy = Automatic
+
+	column PERSONAL_EMAIL
+		dataType: string
+		lineageTag: 8e98d10d-c634-42ef-bfd7-d7d25c4c08a3
+		summarizeBy: none
+		sourceColumn: PERSONAL_EMAIL
+
+		annotation SummarizationSetBy = Automatic
+
+	column BIRTHDAY
+		dataType: string
+		lineageTag: 7ddd7045-cc61-4c09-8e75-436165fb8e8d
+		summarizeBy: none
+		sourceColumn: BIRTHDAY
+
+		annotation SummarizationSetBy = Automatic
+
+	column ACTIVE_SINCE
+		dataType: string
+		lineageTag: 0cd27e66-df39-4c7a-b34c-89c10b2fe54f
+		summarizeBy: none
+		sourceColumn: ACTIVE_SINCE
+
+		annotation SummarizationSetBy = Automatic
+
+	column STATUS
+		dataType: string
+		lineageTag: 3227cb53-e9b9-4c02-a6b8-5cfe81278965
+		summarizeBy: none
+		sourceColumn: STATUS
+
+		annotation SummarizationSetBy = Automatic
+
+	column ACTIVE_UNTIL
+		dataType: string
+		lineageTag: f0248dc4-74a0-4b2a-994c-89f21bdb3dff
+		summarizeBy: none
+		sourceColumn: ACTIVE_UNTIL
+
+		annotation SummarizationSetBy = Automatic
+
+	column TERMINATION_REASON
+		dataType: string
+		lineageTag: acb571b3-1156-4cb0-a834-4d1aff797119
+		summarizeBy: none
+		sourceColumn: TERMINATION_REASON
+
+		annotation SummarizationSetBy = Automatic
+
+	column HEALTH_COMPANY
+		dataType: string
+		lineageTag: 8fdb8e28-24cd-4e38-869b-e32ee64734e8
+		summarizeBy: none
+		sourceColumn: HEALTH_COMPANY
+
+		annotation SummarizationSetBy = Automatic
+
+	column PENSION_REGIME
+		dataType: string
+		lineageTag: 42b165eb-43cb-40eb-98c0-1d2d2e240ef9
+		summarizeBy: none
+		sourceColumn: PENSION_REGIME
+
+		annotation SummarizationSetBy = Automatic
+
+	column PENSION_FUND
+		dataType: string
+		lineageTag: cfaa28aa-e277-4443-a88e-83177e2606b6
+		summarizeBy: none
+		sourceColumn: PENSION_FUND
+
+		annotation SummarizationSetBy = Automatic
+
+	column CUSTOM_ATTRIBUTES_LABOR
+		dataType: string
+		lineageTag: dde3ab43-35e5-4c3a-8948-5c8c39c09d11
+		summarizeBy: none
+		sourceColumn: CUSTOM_ATTRIBUTES_LABOR
+
+		annotation SummarizationSetBy = Automatic
+
+	column CUSTOM_ATTRIBUTES_CATEGORIA
+		dataType: string
+		lineageTag: 06908785-b86a-4933-8b90-971b16ff3413
+		summarizeBy: none
+		sourceColumn: CUSTOM_ATTRIBUTES_CATEGORIA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CUSTOM_ATTRIBUTES_TIPO_DE_NOMINA
+		dataType: string
+		lineageTag: f0a8ad94-598d-4020-8194-d1632fa308fa
+		summarizeBy: none
+		sourceColumn: CUSTOM_ATTRIBUTES_TIPO_DE_NOMINA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CUSTOM_ATTRIBUTES_CONSENTIMIENTO_WHATSAPP
+		dataType: string
+		lineageTag: 63850c3a-66b0-4ac8-8b98-57455d3786c2
+		summarizeBy: none
+		sourceColumn: CUSTOM_ATTRIBUTES_CONSENTIMIENTO_WHATSAPP
+
+		annotation SummarizationSetBy = Automatic
+
+	column CUSTOM_ATTRIBUTES_PROCESO_DE_FINIQUITO
+		dataType: string
+		lineageTag: c0db7b99-2a1b-4789-be36-64f9b10be395
+		summarizeBy: none
+		sourceColumn: CUSTOM_ATTRIBUTES_PROCESO_DE_FINIQUITO
+
+		annotation SummarizationSetBy = Automatic
+
+	column CURRENT_JOB_COMPANY_ID
+		dataType: int64
+		formatString: 0
+		lineageTag: 4572edad-09b5-469c-84ea-b0f1869a5d44
+		summarizeBy: count
+		sourceColumn: CURRENT_JOB_COMPANY_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column CURRENT_JOB_COMPANY_NAME
+		dataType: string
+		lineageTag: 4f408da9-60cf-414e-b69c-44ec72a0aaa9
+		summarizeBy: none
+		sourceColumn: CURRENT_JOB_COMPANY_NAME
+
+		annotation SummarizationSetBy = Automatic
+
+	column CURRENT_JOB_AREA_ID
+		dataType: int64
+		formatString: 0
+		lineageTag: da1ebe9e-c7fd-4050-80fb-fb22f5508a9b
+		summarizeBy: count
+		sourceColumn: CURRENT_JOB_AREA_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column CURRENT_JOB_START_DATE
+		dataType: string
+		lineageTag: 688ebc5e-f94a-4315-a285-696e8b8ca4f8
+		summarizeBy: none
+		sourceColumn: CURRENT_JOB_START_DATE
+
+		annotation SummarizationSetBy = Automatic
+
+	column CURRENT_JOB_END_DATE
+		dataType: string
+		lineageTag: a8ba7e86-6b3b-4ec3-8fa1-530063d824b8
+		summarizeBy: none
+		sourceColumn: CURRENT_JOB_END_DATE
+
+		annotation SummarizationSetBy = Automatic
+
+	column CURRENT_JOB_CONTRACT_FINISHING_DATE_1
+		dataType: string
+		lineageTag: ec059ef8-272c-49e2-9251-fe9872320c32
+		summarizeBy: none
+		sourceColumn: CURRENT_JOB_CONTRACT_FINISHING_DATE_1
+
+		annotation SummarizationSetBy = Automatic
+
+	column CURRENT_JOB_CONTRACT_FINISHING_DATE_2
+		dataType: string
+		lineageTag: 26a6cff2-2821-4234-92b9-c3c79e3c6a3f
+		summarizeBy: none
+		sourceColumn: CURRENT_JOB_CONTRACT_FINISHING_DATE_2
+
+		annotation SummarizationSetBy = Automatic
+
+	column CURRENT_JOB_CONTRACT_TYPE
+		dataType: string
+		lineageTag: 918c1f7c-7282-4f2d-ba45-2d056150ae26
+		summarizeBy: none
+		sourceColumn: CURRENT_JOB_CONTRACT_TYPE
+
+		annotation SummarizationSetBy = Automatic
+
+	column CURRENT_JOB_COST_CENTER
+		dataType: string
+		lineageTag: 17cd9f10-10b8-4732-8a44-da2b376e0ee7
+		summarizeBy: none
+		sourceColumn: CURRENT_JOB_COST_CENTER
+
+		annotation SummarizationSetBy = Automatic
+
+	column CURRENT_JOB_ACTIVE_UNTIL
+		dataType: string
+		lineageTag: fc02d95d-c8b5-4f2a-a6cc-5e938189e4a6
+		summarizeBy: none
+		sourceColumn: CURRENT_JOB_ACTIVE_UNTIL
+
+		annotation SummarizationSetBy = Automatic
+
+	column CURRENT_JOB_TERMINATION_REASON
+		dataType: string
+		lineageTag: 1866827f-a1b8-47cf-a973-4736f9c6f890
+		summarizeBy: none
+		sourceColumn: CURRENT_JOB_TERMINATION_REASON
+
+		annotation SummarizationSetBy = Automatic
+
+	column CURRENT_JOB_BOSS_ID
+		dataType: int64
+		formatString: 0
+		lineageTag: 6824dfbf-8f42-498b-8ece-b49fbede27c0
+		summarizeBy: count
+		sourceColumn: CURRENT_JOB_BOSS_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column CURRENT_JOB_BOSS_RUT
+		dataType: string
+		lineageTag: 8652b5af-3eb4-4c3b-9d38-e845fbdb162b
+		summarizeBy: none
+		sourceColumn: CURRENT_JOB_BOSS_RUT
+
+		annotation SummarizationSetBy = Automatic
+
+	column CURRENT_JOB_BOSS_NAME
+		dataType: string
+		lineageTag: 87d32e70-50c0-4027-98d5-257bcf80ee8b
+		summarizeBy: none
+		sourceColumn: CURRENT_JOB_BOSS_NAME
+
+		annotation SummarizationSetBy = Automatic
+
+	column CURRENT_JOB_ROLE_ID
+		dataType: int64
+		formatString: 0
+		lineageTag: c30e4bb8-b55e-45e3-92d3-5af5ef69b431
+		summarizeBy: count
+		sourceColumn: CURRENT_JOB_ROLE_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column CURRENT_JOB_ROLE_NAME
+		dataType: string
+		lineageTag: 40df043e-0535-428e-bcab-d38cf56d1eef
+		summarizeBy: none
+		sourceColumn: CURRENT_JOB_ROLE_NAME
+
+		annotation SummarizationSetBy = Automatic
+
+	column CURRENT_JOB_ROLE_ROLE_FAMILY_NAME
+		dataType: string
+		lineageTag: 4aac3d02-2206-44b1-8f00-cc8fb82c12b2
+		summarizeBy: none
+		sourceColumn: CURRENT_JOB_ROLE_ROLE_FAMILY_NAME
+
+		annotation SummarizationSetBy = Automatic
+
+	column CURRENT_JOB_ROLE_CUSTOM_ATTRIBUTES_NIVEL_DEL_CARGO
+		dataType: string
+		lineageTag: 1521da7c-bc4b-4d88-8040-571e745af310
+		summarizeBy: none
+		sourceColumn: CURRENT_JOB_ROLE_CUSTOM_ATTRIBUTES_NIVEL_DEL_CARGO
+
+		annotation SummarizationSetBy = Automatic
+
+	column CURRENT_JOB_PERIODICITY
+		dataType: string
+		lineageTag: 4cdbfac8-46cb-402a-ac9b-796bff29fd00
+		summarizeBy: none
+		sourceColumn: CURRENT_JOB_PERIODICITY
+
+		annotation SummarizationSetBy = Automatic
+
+	column CURRENT_JOB_WORKING_SCHEDULE_TYPE
+		dataType: string
+		lineageTag: fd24a60f-7424-40db-967d-4619a65dac49
+		summarizeBy: none
+		sourceColumn: CURRENT_JOB_WORKING_SCHEDULE_TYPE
+
+		annotation SummarizationSetBy = Automatic
+
+	column FAENA
+		dataType: string
+		lineageTag: 13149b1a-5798-48fb-a1f7-65a38523cf2a
+		summarizeBy: none
+		sourceColumn: FAENA
+
+		annotation SummarizationSetBy = Automatic
+
+	column TEMPORADA_DE_LA_FAENA
+		dataType: string
+		lineageTag: ef0b9589-b749-42d5-84b1-1dfe943adf08
+		summarizeBy: none
+		sourceColumn: TEMPORADA_DE_LA_FAENA
+
+		annotation SummarizationSetBy = Automatic
+
+	column AREA_TRABAJO
+		dataType: string
+		lineageTag: 8c257c3a-acee-4551-83d0-03fde3ec7cd0
+		summarizeBy: none
+		sourceColumn: AREA_TRABAJO
+
+		annotation SummarizationSetBy = Automatic
+
+	column AREA_ADDRESS
+		dataType: string
+		lineageTag: e6d435dd-a3d3-4b03-8b44-2ec851b8a722
+		summarizeBy: none
+		sourceColumn: AREA_ADDRESS
+
+		annotation SummarizationSetBy = Automatic
+
+	column AREA_CITY
+		dataType: string
+		lineageTag: 032d609d-4c94-4b9a-9b6a-f07849b965ff
+		summarizeBy: none
+		sourceColumn: AREA_CITY
+
+		annotation SummarizationSetBy = Automatic
+
+	column COST_CENTER
+		dataType: string
+		lineageTag: d5e5269d-e710-4de5-81f3-b0a632833d56
+		summarizeBy: none
+		sourceColumn: COST_CENTER
+
+		annotation SummarizationSetBy = Automatic
+
+	column PARENT_AREA_NAME
+		dataType: string
+		lineageTag: ca0aa29d-1832-4cd5-a967-c7a6c7008339
+		summarizeBy: none
+		sourceColumn: PARENT_AREA_NAME
+
+		annotation SummarizationSetBy = Automatic
+
+	column DEPARTMENT_NAME
+		dataType: string
+		lineageTag: 27047918-4051-4796-ad3a-d9a77d5e2d28
+		summarizeBy: none
+		sourceColumn: DEPARTMENT_NAME
+
+		annotation SummarizationSetBy = Automatic
+
+	column DEPARTMENT_DIVISION_NAME
+		dataType: string
+		lineageTag: 0e15426c-5c8e-4ef8-b2b7-7c9094005eb4
+		summarizeBy: none
+		sourceColumn: DEPARTMENT_DIVISION_NAME
+
+		annotation SummarizationSetBy = Automatic
+
+	column CUSTOM_ATTRIBUTES_ENCARGADO
+		dataType: string
+		lineageTag: 160e6e2b-9b00-47f4-8ff9-427a2261b6c9
+		summarizeBy: none
+		sourceColumn: CUSTOM_ATTRIBUTES_ENCARGADO
+
+		annotation SummarizationSetBy = Automatic
+
+	column FECHA_CARGA
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 522e4a16-6413-4da9-88ad-d9ccca862e5b
+		summarizeBy: none
+		sourceColumn: FECHA_CARGA
+
+		variation Variación
+			isDefault
+			relationship: 1fc7db01-acce-4f92-a614-13a77bb16e48
+			defaultHierarchy: LocalDateTable_fe3e6b41-0595-43ae-9185-03ae0428e3ca.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+	column DATE_ACT
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: b52eed90-ef55-4eb0-ae38-a51bb26e9970
+		summarizeBy: none
+		sourceColumn: DATE_ACT
+
+		variation Variación
+			isDefault
+			relationship: 27169dcc-9eb8-444e-b632-6e1e7fa24036
+			defaultHierarchy: LocalDateTable_054e75aa-c667-406f-9d69-5c1b649667d5.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'COR_PERSONAS V_BUK_EMPLEADOS_HIS' = m
+		mode: import
+		source =
+				let
+				    Origen = Sql.Database("bvy24rrvimfuhn6i7b5zewy5iq-ygvzwzzdfhduxiwvhdn462575a.datawarehouse.fabric.microsoft.com", "GF_DWH"),
+				    COR_PERSONAS_V_BUK_EMPLEADOS_HIS = Origen{[Schema="COR_PERSONAS",Item="V_BUK_EMPLEADOS_HIS"]}[Data]
+				in
+				    COR_PERSONAS_V_BUK_EMPLEADOS_HIS
+

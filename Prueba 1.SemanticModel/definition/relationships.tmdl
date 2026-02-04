@@ -1,0 +1,10 @@
+relationship 1fc7db01-acce-4f92-a614-13a77bb16e48
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'COR_PERSONAS V_BUK_EMPLEADOS_HIS'.FECHA_CARGA
+	toColumn: LocalDateTable_fe3e6b41-0595-43ae-9185-03ae0428e3ca.Date
+
+relationship 27169dcc-9eb8-444e-b632-6e1e7fa24036
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'COR_PERSONAS V_BUK_EMPLEADOS_HIS'.DATE_ACT
+	toColumn: LocalDateTable_054e75aa-c667-406f-9d69-5c1b649667d5.Date
+

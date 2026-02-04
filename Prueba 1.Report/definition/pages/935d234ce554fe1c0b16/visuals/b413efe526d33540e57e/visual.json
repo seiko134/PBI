@@ -1,0 +1,129 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "b413efe526d33540e57e",
+  "position": {
+    "x": 9.4955856499816473,
+    "y": 0,
+    "z": 0,
+    "height": 280.11977667445859,
+    "width": 1248.6695129725865,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "COR_PERSONAS V_BUK_EMPLEADOS_HIS"
+                    }
+                  },
+                  "Property": "FULL_NAME"
+                }
+              },
+              "queryRef": "COR_PERSONAS V_BUK_EMPLEADOS_HIS.FULL_NAME",
+              "nativeQueryRef": "FULL_NAME"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "COR_PERSONAS V_BUK_EMPLEADOS_HIS"
+                    }
+                  },
+                  "Property": "BIRTHDAY"
+                }
+              },
+              "queryRef": "COR_PERSONAS V_BUK_EMPLEADOS_HIS.BIRTHDAY",
+              "nativeQueryRef": "BIRTHDAY"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "COR_PERSONAS V_BUK_EMPLEADOS_HIS"
+                    }
+                  },
+                  "Property": "RUT"
+                }
+              },
+              "queryRef": "COR_PERSONAS V_BUK_EMPLEADOS_HIS.RUT",
+              "nativeQueryRef": "RUT"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "COR_PERSONAS V_BUK_EMPLEADOS_HIS"
+                  }
+                },
+                "Property": "FULL_NAME"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ]
+      }
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "69151790ce203990ddc5",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "COR_PERSONAS V_BUK_EMPLEADOS_HIS"
+              }
+            },
+            "Property": "FULL_NAME"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "39c4d74d8cffb0a4b46f",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "COR_PERSONAS V_BUK_EMPLEADOS_HIS"
+              }
+            },
+            "Property": "BIRTHDAY"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "ce752cca6f93a934dd7b",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "COR_PERSONAS V_BUK_EMPLEADOS_HIS"
+              }
+            },
+            "Property": "RUT"
+          }
+        },
+        "type": "Categorical"
+      }
+    ]
+  }
+}
